@@ -32,7 +32,7 @@ Herramientas para cimientos sólidos y seguros.
 *   **API (`api/`)**: Scaffolding completo de Recursos NestJS (Controller, Service, Module) con DTOs validados automáticamente.
 *   **Database (`database/`)**: Gestión de entidades **TypeORM**, verificación de relaciones y migraciones seguras.
 *   **Security (`security/`)**: Implementación de guardias (Guards), estrategias RBAC (Roles), y manejo de **Token Blacklists**.
-*   **Logic (`logic/`)**: Servicios de lógica de negocio pura e integración con modelos de IA como **Gemini**.
+*   **Logic (`logic/`)**: Servicios de lógica de negocio pura, integración de pagos con **Mercado Pago** e integración con modelos de IA como **Gemini**.
 *   **Infrastructure (`infrastructure/`)**: Implementación de Health Checks y system loggers estructurados.
 *   **Testing (`testing/`)**: Generadores de tests E2E y unitarios para validar flujos críticos de negocio.
 

@@ -17,4 +17,5 @@ export * from './logic/gemini_integration';
 export * from './api/swagger_doc_helper';
 export * from './api/versioning_manager';
 export * from './database/migration_expert';
+export * from './logic/mercado_pago_integration';
 
