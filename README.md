@@ -23,7 +23,7 @@ Herramientas para construir interfaces modernas y performantes.
 *   **UI (`ui/`)**: Generación de componentes visuales impactantes utilizando los estándares de **Shadcn** y **Tailwind**.
 *   **Logic (`logic/`)**: Automatización de hooks personalizados, validación de formularios complejas y gestión de estado global.
 *   **Routing (`routing/`)**: Estructuración inteligente del **App Router** de Next.js, manejando layouts, loading states y error boundaries.
-*   **Infrastructure (`infrastructure/`)**: Auditorías de performance, configuración de SEO dinámico y headers de seguridad.
+*   **Infrastructure (`infrastructure/`)**: Auditorías de performance, configuración de SEO dinámico, headers de seguridad y gestión de sesiones robusta (Clean Slate Logout).
 *   **Testing (`testing/`)**: Creación rápida de tests unitarios y de integración para asegurar la estabilidad de la UI.
 
 ### ⚙️ Backend Skills

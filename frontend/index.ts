@@ -11,6 +11,7 @@ import { aiCopywriterSkillDefinition } from './ui/ai_copywriter_ui';
 import { routingMasterSkillDefinition } from './routing/routing_master';
 import { searchParamsManagerSkillDefinition } from './routing/search_params_manager';
 import { sitemapGeneratorSkillDefinition } from './routing/sitemap_generator';
+import { authSessionManagerSkillDefinition } from './infrastructure/auth_session_manager';
 
 export * from './logic/analyze_hook_logic';
 export * from './ui/responsive_ui';
@@ -25,6 +26,7 @@ export * from './ui/ai_copywriter_ui';
 export * from './routing/routing_master';
 export * from './routing/search_params_manager';
 export * from './routing/sitemap_generator';
+export * from './infrastructure/auth_session_manager';
 export * from './testing/component_test_builder';
 export * from './testing/e2e_frontend_builder';
 export * from './testing/hook_test_generator';
@@ -44,7 +46,8 @@ export const frontendSkills = {
         aiCopywriterSkillDefinition,
         routingMasterSkillDefinition,
         searchParamsManagerSkillDefinition,
-        sitemapGeneratorSkillDefinition
+        sitemapGeneratorSkillDefinition,
+        authSessionManagerSkillDefinition
     ],
     handlers: {
         [analyzeHookLogic.name]: analyzeHookLogic.handler,
@@ -60,5 +63,6 @@ export const frontendSkills = {
         [routingMasterSkillDefinition.name]: routingMasterSkillDefinition.handler,
         [searchParamsManagerSkillDefinition.name]: searchParamsManagerSkillDefinition.handler,
         [sitemapGeneratorSkillDefinition.name]: sitemapGeneratorSkillDefinition.handler,
+        [authSessionManagerSkillDefinition.name]: authSessionManagerSkillDefinition.handler,
     }
 };
