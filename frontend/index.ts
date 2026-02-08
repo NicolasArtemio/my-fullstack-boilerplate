@@ -12,6 +12,11 @@ import { routingMasterSkillDefinition } from './routing/routing_master';
 import { searchParamsManagerSkillDefinition } from './routing/search_params_manager';
 import { sitemapGeneratorSkillDefinition } from './routing/sitemap_generator';
 import { authSessionManagerSkillDefinition } from './infrastructure/auth_session_manager';
+import { tableGeneratorSkillDefinition } from './ui/table_generator';
+import { toastNotificationSkillDefinition } from './ui/toast_notification';
+import { skeletonLoaderSkillDefinition } from './ui/skeleton_loader';
+import { themeSwitcherSkillDefinition } from './infrastructure/theme_switcher';
+import { infiniteScrollSkillDefinition } from './logic/infinite_scroll';
 
 export * from './logic/analyze_hook_logic';
 export * from './ui/responsive_ui';
@@ -27,9 +32,14 @@ export * from './routing/routing_master';
 export * from './routing/search_params_manager';
 export * from './routing/sitemap_generator';
 export * from './infrastructure/auth_session_manager';
+export * from './infrastructure/theme_switcher';
 export * from './testing/component_test_builder';
 export * from './testing/e2e_frontend_builder';
 export * from './testing/hook_test_generator';
+export * from './ui/table_generator';
+export * from './ui/toast_notification';
+export * from './ui/skeleton_loader';
+export * from './logic/infinite_scroll';
 
 
 export const frontendSkills = {
